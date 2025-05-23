@@ -102,7 +102,7 @@
         <button class="btn btn-success">Mi boton en bootstrap</button>
     </section>
     <section class="bg-danger py-5 text-center container">
-        <div class="d-flex justify-content-around">
+        <div class="d-flex flex-wrap gap-3 justify-content-around">
             <!-- <div class="col-md-6 border"> -->
             <div class="card" style="width: 18rem;">
                 <img src="./img/pollo-1.webp" class="card-img-top" alt="...">
@@ -114,7 +114,7 @@
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
             </div>
             <!-- <div class="col-md-6 border"> -->
             <div class="card" style="width: 18rem;">
@@ -127,10 +127,87 @@
                     </p>
                     <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-            <!-- </div> -->
+                <!-- </div> -->
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./img/pollo-3.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                        Some quick example text to build on the card title and make up the bulk of the
+                        card’s content.
+                    </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
             </div>
         </div>
     </section>
+    <!-- Esta es otra forma de hacer lo que se hizo en el section anterior, pero usando grillas y asignandoles el mismo -->
+    <!-- numero de columnas al contenedor (recordar que son 12 columnas que dividen el ancho de la pantalla) -->
+    <!-- además de usar margin auto(mx-auto), y margin top y botton(my-3) -->
+    <section class="bg-dark py-5 text-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="./img/pollo-1.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card’s content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-auto my-3" style="width: 18rem;">
+                        <img src="./img/pollo-2.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card’s content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-auto" style="width: 18rem;">
+                        <img src="./img/pollo-3.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">
+                                Some quick example text to build on the card title and make up the bulk of the
+                                card’s content.
+                            </p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
